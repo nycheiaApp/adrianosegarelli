@@ -1,0 +1,37 @@
+{
+ "sub": "Il tempo della forma",
+ "testo": [
+  "Sculture in argilla: opere modellate a mano, uniche, pensate per chi cerca nella materia un gesto e una domanda.",
+  "Lavoro l'argilla a mano, lasciando che la materia conservi il segno del gesto. Ogni opera nasce lenta, e porta con sé una domanda."
+ ],
+ "opere": [
+  {
+   "file": "i-dubbi-di-venere.webp",
+   "titolo": "I dubbi di Venere",
+   "scheda": "Creta cruda, stucco e pasta di cristallo 25 × 30 × 30",
+   "w": 431,
+   "h": 552
+  },
+  {
+   "file": "il-peso-dell-amore.webp",
+   "titolo": "Il peso dell'amore",
+   "scheda": "Creta cruda dipinta 18 × 20 × 24,5, 2021",
+   "w": 550,
+   "h": 769
+  },
+  {
+   "file": "l-origine-di-un-abbraccio.webp",
+   "titolo": "L'origine di un abbraccio",
+   "scheda": "Creta cruda dipinta 31,5 × 30 × 30, 2021",
+   "w": 533,
+   "h": 788
+  },
+  {
+   "file": "gli-estremi-del-tempo.webp",
+   "titolo": "Gli estremi del tempo",
+   "scheda": "Creta cruda e stucco 26,5 × 30 × 30, 2021",
+   "w": 548,
+   "h": 778
+  }
+ ]
+}
