@@ -21,7 +21,7 @@ BIOGRAFIA = [
  "La mia pittura si sviluppa su un figurativo che porta alla memoria canoni novecenteschi e talvolta soggetti classici sporcati da un tocco contemporaneo. Riferimenti al mito evidenziano gli stati emotivi dell’uomo attraverso le fragilità delle varie divinità rappresentate.",
  "Questa ricerca si sviluppa attraverso un forte concetto metafisico, caratterizzato da figure squarciate da una luce quasi teatrale che mostrano la loro piena espressività in uno spazio surreale. Un luogo – non luogo dove le figure si muovono in maniera arbitraria cercando punti di luce che possa loro indicare la via d’uscita. Che possa dare loro le risposte ai più profondi quesiti della vita. Talvolta rivolte verso un buio che delinea un vuoto apparente, proprio lì dove verosimilmente c’è la necessità di cercare.",
  "Il percorso pittorico viene scandito negli anni da figure femminili dalla forte poetica ispiratrice che, per me, rappresentano in realtà l’altra parte dell’uomo, quella parte più fragile e sensibile e di conseguenza più comunicativa.",
- "Il soggetto femminile, attraverso pose quasi statiche, espressioni rigide e sguardi rivolti in uno spazio vuoto, perdono la loro forma estetica e si trasformano in uno strumento attraverso il quale tutti i sentimenti dell’ essere umano vengono veicolati in modo rapido e diretto.",
+ "Il soggetto femminile, attraverso pose quasi statiche, espressioni rigide e sguardi rivolti in uno spazio vuoto, perdono la loro forma estetica e si trasformano in uno strumento attraverso il quale tutti i sentimenti dell’essere umano vengono veicolati in modo rapido e diretto.",
  "Un istinto interiore che trova la sua creatività in opere che nascono dalle varie emozioni e da tutti quegli stati d’animo che mutano continuamente. Una ricerca ossessiva senza sosta che punta alla vera essenza dell’animo umano.",
  "L’esigenza comunicativa attraverso il linguaggio del corpo prende forma anche nella scultura, rappresentando e interpretando con la lavorazione della creta la parte emozionale, i disagi e i sentimenti racchiusi dell’uomo.",
  "Un “non finito” dove gli arti si decostruiscono plasmandosi nella materia composta da terre crude, paste grezze e stucchi. Le sculture volutamente non subiscono processi di cottura per un concetto basato su un naturale deterioramento nel tempo della creta, che rimane al suo interno un elemento vivo che proviene dal fiume."
@@ -61,13 +61,13 @@ TEMI_TESTI = {
  ]
 }
 
-# Eventi (foglio Rassegna stampa): (anno, tipologia, titolo, luogo, descrizione, link alla fonte). Nell'elenco: dal più recente.
+# Eventi (skill as-rassegna-stampa): (anno, tipologia, titolo, luogo · sede, descrizione, link alla fonte). Status "N" = non pubblicato. Nell'elenco: dal più recente.
 EVENTI = [
  [
   "2020",
   "Documentazione Artistica",
   "L'abbandono di un abbraccio",
-  "Terni",
+  "Terni · Piazza del Mercato",
   "PDF istituzionale con biografia e schede delle opere \"L'abbandono di un abbraccio\" e \"L'ombra dei sussurri\", con note critiche sulla sua poetica.",
   "https://bct.comune.terni.it/sites/default/files/adriano_segarelli.pdf"
  ],
@@ -75,7 +75,7 @@ EVENTI = [
   "2021",
   "Personale d'arte",
   "Destrutturalismo interiore",
-  "Roma",
+  "Roma · Ex Mattatio - Testaccio",
   "Mostra personale all'Ex Mattatoio di Testaccio con oltre 20 opere tra tele e sculture dedicate a questa nuova corrente artistica da lui fondata.",
   "https://www.arte.it/calendario-arte/roma/mostra-adriano-segarelli-destrutturalismo-interiore-77955"
  ],
@@ -83,7 +83,7 @@ EVENTI = [
   "2021",
   "Personale d'arte",
   "Destrutturalismo interiore",
-  "Roma",
+  "Roma · Ex Mattatio - Testaccio",
   "Scheda evento dettagliata della mostra all'Ex Mattatoio, che spiega il concetto di decostruzione della forma per rivelare l'interiorità.",
   "https://segnonline.it/events/adriano-segarelli-destrutturalismo-interiore/"
  ],
@@ -91,15 +91,31 @@ EVENTI = [
   "2021",
   "Personale d'arte",
   "Destrutturalismo interiore",
-  "Roma",
+  "Roma · Ex Mattatio - Testaccio",
   "Report sul successo della mostra all'Ex Mattatoio, spiegando il movimento che \"smonta\" la forma del corpo dall'interno per rivelare le emozioni.",
   "https://www.eventiculturalimagazine.com/arte-e-cultura/successo-adriano-segarelli-meetart-al-ex-mattatoio/"
+ ],
+ [
+  "2021",
+  "Collettiva d'arte",
+  "ONYRICON. La pittura sogna",
+  "Zagarolo (Roma) · Palazzo Rospigliosi",
+  "La mostra, dal titolo “Onyricon – la pittura sogna”, è un invito ad abbandonarsi nel gioco di materia e pensiero, alla ricerca di sfumature di esistenza, sospesi tra esperienza immaginifica ed azione concreta, ragione ed irrazionale, inquietudine e stasi, nell’abbraccio con il mondo onirico.",
+  "https://www.exibart.com/evento-arte/onyricon-la-pittura-sogna/"
+ ],
+ [
+  "2021",
+  "Collettiva d'arte",
+  "Arte.Uomo.Natura.3 - arte contemporanea e letteratura",
+  "Bolognano (PE) · Santa Maria Entroterra",
+  "Articolo presentazione evento ARTE.UOMO.NATURA.3 mostra d’arte contemporanea e incontri letterari",
+  "https://www.notizienazionali.it/notizie/attualita/30878/arte-pittura-installazioni-scultura-natale-mostra-inclusione-scrittura-love-amore"
  ],
  [
   "2022",
   "Collettiva d'arte",
   "Künste 2022 - Ausgang24",
-  "Roma",
+  "Roma · Galleria dei Miracoli",
   "Recensione della mostra collettiva presentata dall'hub artistico sperimentale Ausgang24, co-fondato da Adriano Segarelli e Dario Pellegrino.",
   "https://theparallelvision.com/2022/03/23/kunste-ausgang24-mostra-collettiva/"
  ],
@@ -107,7 +123,7 @@ EVENTI = [
   "2022",
   "Personale d'arte",
   "Memory & Tremor",
-  "Milano",
+  "Milano · Brera - ex studio Piero Manzoni",
   "Mostra personale che indaga la memoria e il tremore interiore attraverso la pittura figurativa e metafisica dell'artista.",
   "https://www.juliet-artmagazine.com/adriano-segarelli-memory-tremor/"
  ],
@@ -115,7 +131,7 @@ EVENTI = [
   "2022",
   "Personale d'arte",
   "L'Io Sospeso",
-  "Isernia",
+  "Isernia · Galleria Spazio Arte Petrecca",
   "Mostra alla Galleria Spazio Arte Petrecca. Nota critica che analizza il contatto concettuale tra pittura figurativa e metafisica, con riferimenti a De Chirico.",
   "https://www.aboutartonline.com/lio-sospeso-di-adriano-segarelli-tra-figurativo-e-metafisico-alla-galleria-spazio-arte-petrecca-isernia-dal-18-novembre-al-3-dicembre/"
  ],
@@ -123,23 +139,23 @@ EVENTI = [
   "2022",
   "Personale d'arte",
   "Mobilitazioni Interiori",
-  "Abruzzo",
+  "Pescara · Ci vuole un villaggio aps-ArtGallery",
   "Evento di arte pubblica e flashmob che coinvolge la comunità attraverso il linguaggio artistico di Segarelli, incentrato sulla mobilitazione delle emozioni.",
   "https://abruzzo.life/2022/01/27/adriano-segarelli-presenta-flashmob_mobilitazioni-interiori/"
  ],
  [
   "2022",
-  "Proiezioni Cinema Totem",
-  "Cortometraggio d'autore",
-  "Roma",
-  "Documento dell'Ordine degli Architetti di Roma relativo a proiezioni cinematografiche, collegato ai cortometraggi scritti e diretti da Segarelli.",
-  "https://www.architettiroma.it/wp-content/uploads/2022/10/proiezioni_cinema_totem.pdf"
+  "Collettiva d'arte",
+  "Festa del Cinema di Roma 17th edition",
+  "Roma · Acquario Romano",
+  "“PROIEZIONI” architettura, cinema e arte",
+  "https://www.artelive360.it/cosa-facciamo/proiezioni-artistiche/"
  ],
  [
   "2023",
   "Premio Combat 2023",
-  "Premio Combat 2023",
-  "Livorno",
+  "Premio Combat 2023 14th edition",
+  "Livorno · Museo G. Fattori",
   "Pagina dedicata alla partecipazione dell'artista al prestigioso Premio Combat, riconoscimento di rilievo nell'arte contemporanea italiana.",
   "https://www.premiocombat.it/2023/adriano-segarelli-97433"
  ],
@@ -147,7 +163,7 @@ EVENTI = [
   "2023",
   "Collettiva d'arte",
   "Exibart",
-  "Roma",
+  "Roma · Bar del Fico",
   "Pagina artista su Exibart.com con focus sulle opere dall'atmosfera vibrante e sospesa e aggiornamenti sulla produzione contemporanea.",
   "https://www.exibart.com/evento-arte/adriano-segarelli/"
  ],
@@ -155,23 +171,23 @@ EVENTI = [
   "2023",
   "Premiazione Premio Pittura",
   "Premio Pittura Amedeo Modigliani",
-  "Roma",
+  "Roma · Fondazione Modigliani",
   "Pagina ufficiale della Fondazione Amedeo Modigliani che elenca Adriano Segarelli come vincitore assoluto nella categoria Pittura per l'anno 2023.",
   "https://fondazioneamedeomodigliani.org/premiazioni-fondazione-amedeo-modigliani/"
  ],
  [
   "2024",
-  "Profilo Artista RAW",
-  "Roma Art Week",
-  "Roma",
-  "Profilo biografico completo: stile tra figurativo e metafisica, tecniche (olio, creta, affresco), romanzi pubblicati e ruolo di co-fondatore di Ausgang24.",
+  "Lux mentis - Profilo Artista RAW",
+  "Roma Art Week 11th edition",
+  "Roma · Palazzo Velli expo",
+  "L'arte non appartiene agli artisti... è di tutti coloro che sanno cogliere l'essenza di ciò provano nell'ammirarla Profilo biografico completo: stile tra figurativo e metafisica, tecniche (olio, creta, affresco), romanzi pubblicati e ruolo di co-fondatore di Ausgang24.",
   "https://romeartweek.com/it/artisti/?code=LOAAXI"
  ],
  [
   "2024",
   "Personale d'arte",
   "Metafisica della Luce",
-  "Roma",
+  "Roma · Fondazione Modigliani",
   "Articolo su Artribune dedicato alla mostra personale dell'artista in qualità di vincitore del Premio Fondazione Amedeo Modigliani 2023.",
   "https://www.artribune.com/mostre-evento-arte/premio-fondazione-amedeo-modigliani-adriano-segarelli/"
  ],
@@ -179,7 +195,7 @@ EVENTI = [
   "2024",
   "Collettiva d'arte",
   "Unerwartet",
-  "Roma",
+  "Roma · Segarelli art Studio",
   "Mostra collettiva del 14 dicembre presso Adriano Segarelli Art Studio, con talk, musica e presentazione della produzione metafisica dell'artista.",
   "https://www.exibart.com/evento-arte/unerwartet/"
  ],
@@ -187,7 +203,7 @@ EVENTI = [
   "2024",
   "Collettiva d'arte",
   "Touch of Light",
-  "Roma",
+  "Roma · Segarelli art Studio",
   "Mostra del Collettivo Lux Mentis (21-26 ottobre) presso lo studio dell'artista, incentrata sulle variazioni della luce e atmosfere metafisiche.",
   "https://www.exibart.com/evento-arte/touch-of-light/"
  ],
@@ -195,7 +211,7 @@ EVENTI = [
   "2024",
   "Personale d'arte",
   "Mostre in Studio",
-  "Roma",
+  "Roma · Segarelli art Studio",
   "Pagina ufficiale dello studio e galleria d'arte di Segarelli, con l'elenco degli eventi ospitati (Unerwartet, Touch of Light).",
   "https://www.exibart.com/museo-galleria-arte/adriano-segarelli-art-studio/"
  ],
@@ -203,7 +219,7 @@ EVENTI = [
   "2024",
   "Personale d'arte",
   "Metafisica della Luce",
-  "Roma",
+  "Roma · Fondazione Modigliani",
   "Scheda evento della mostra personale tenutasi presso la Fondazione Amedeo Modigliani in Trastevere, dedicata ai vincitori del premio 2023.",
   "https://www.artrabbit.com/events/adriano-segarelli-metafisica-della-luce?__cc=1"
  ],
@@ -219,7 +235,7 @@ EVENTI = [
   "2024",
   "Personale d'arte",
   "Metafisica della luce",
-  "Roma",
+  "Roma · Fondazione Amedeo Modigliani",
   "Annuncio della mostra personale alla Fondazione Amedeo Modigliani, lodando la capacità dell'artista di trattare temi universali con originalità.",
   "https://www.oggiroma.it/eventi/mostre/adriano-segarelli-metafisica-della-luce/76925/"
  ],
@@ -227,7 +243,7 @@ EVENTI = [
   "2024",
   "Personale d'arte",
   "Luci Interiori",
-  "Pescara",
+  "Pescara · Ci vuole un villaggio aps-ArtGallery",
   "Mostra personale presso Ci vuole un villaggio aps-ART Gallery, con opere che rientrano nel filone del destrutturalismo come flusso eruttivo di emozioni.",
   "https://www.ladolcevita.tv/luci-interiori-adriano-segarelli/"
  ],
@@ -235,25 +251,33 @@ EVENTI = [
   "2024",
   "Personale d'arte",
   "Luci interiori",
-  "Pescara",
+  "Pescara · Ci vuole un villaggio aps-ArtGallery",
   "Articolo locale sull'inaugurazione della mostra personale dell'artista, premiato come Vincitore Pittura 2023 dalla Fondazione Amedeo Modigliani.",
   "https://abruzzo.life/2024/02/01/luci-interiori-di-adriano-segarelli-a-pescara/"
- ],
- [
-  "2024",
-  "Collettiva d'arte",
-  "Roma Art Directory",
-  "Roma",
-  "Scheda professionale su Rome Art Directory con informazioni su stile, tecniche e figure femminili come poetica ispiratrice.",
-  "https://romeartdirectory.com/it/artisti/?code=LOAAXI"
  ],
  [
   "2025",
   "Personale d'arte",
   "Oltre, La Metafisica della Luce",
-  "Roma",
+  "Roma · Villino Hernandez",
   "Mostra inaugurata presso la Sede SanPaolo Invest (Villino Hernandez), esplorando la luce come realtà assoluta oltre l'apparenza fisica.",
   "https://www.agenziacomunica.net/2025/09/11/la-mostra-pittorica-oltre-la-metafisica-della-luce-di-adriano-segarelli/"
+ ],
+ [
+  "2025",
+  "Collettiva d'arte",
+  "Mythos - Viaggio nel mito contemporaneo",
+  "Firenze · Fondazione Bellini",
+  "Partecipazione su invito MYTOS, il primo percorso espositivo organizzato presso la Fondazione BELLINI e proposto da ELITE MUNDILIVE che celebra appunto l’essenza del Mito stesso in chiave contemporanea.",
+  "https://iltaccodibacco.it/en/toscana/eventi/303495.html"
+ ],
+ [
+  "2025",
+  "Collettiva d'arte",
+  "Premio Point de vue",
+  "Zagarolo (Roma) · Palazzo Rospigliosi",
+  "Riconoscimento ricevuto alla inaugurazione della mostra d'arte contemporanea \"Un battito di ciglia\" a palazzo Rospigliosi di Zagarolo.",
+  "https://www.juliet-artmagazine.com/events/aa-vv-un-battito-di-ciglia/"
  ]
 ]
 
@@ -313,7 +337,13 @@ def page(root, title, desc, body, active=None, home=False, fname=''):
     """root = prefisso verso la cartella principale ('' o '../')."""
     nav = ''.join('<a href="%s%s.html"%s>%s</a>' % (root, k, ' class="on"' if k == active else '', E(t)) for k, t in MENU)
     head = '' if home else '<header>\n<a class="logo" href="%sindex.html"><svg class="mark" aria-hidden="true"><use href="#mk"/></svg>%s</a>\n<nav>%s</nav>\n</header>\n' % (root, NOME, nav)
-    foot = '' if home else '<footer>\n%s\n© 2026 %s\n</footer>\n' % (SOCIAL, NOME)
+    foot = '' if home else (
+        '<footer>\n<div class="fg">\n'
+        '<div><div class="fn"><svg class="mark" aria-hidden="true"><use href="#mk"/></svg>%s</div>\n%s</div>\n'
+        '<div><h4>Sezioni</h4><ul>%s</ul></div>\n'
+        '<div><h4>Bottega</h4><ul><li>Via Laura Mantegazza 20a, Roma</li><li><a href="mailto:%s">%s</a></li></ul></div>\n'
+        '</div>\n<div class="fb"><span>© 2026 %s</span><span>ideazione Nycheia</span></div>\n</footer>\n'
+    ) % (NOME, SOCIAL, ''.join('<li><a href="%s%s.html">%s</a></li>' % (root, k, E(t)) for k, t in MENU), EMAIL, EMAIL, NOME)
     out = '''<!DOCTYPE html>
 <html lang="it">
 <head>
@@ -348,15 +378,22 @@ write('index.html', page('', NOME + ' — Pittore, scultore, scrittore', 'Sito u
 
 # Biografia: foto dello studio + introduzione, poi un'opera accanto a ogni capoverso (BIO_IMMAGINI, nello stesso ordine dei capoversi 2-8)
 BIO_IMMAGINI = json.load(open(os.path.join(ROOT, '_sorgenti', 'biografia-immagini.json')))
+BIO_EXTRA = json.load(open(os.path.join(ROOT, '_sorgenti', 'biografia-extra.json')))  # sezione 6 della skill as-biografia (la 5, cortometraggi, e' tolta dal sito per ora)
 def fig(im):
     cap = '<figcaption>%s<small>%s</small></figcaption>' % (E(im['titolo']), E(im['scheda']))
     return '<figure><a class="zoom" href="img/biografia/%s" aria-label="Ingrandisci: %s"><img src="img/biografia/%s" width="%d" height="%d" alt="%s" loading="lazy"></a>%s</figure>' % (
         im['file'], E(im['titolo']), im['file'], im['w'], im['h'], E(im['titolo'] + ' — ' + im['scheda']), cap)
 righe = ''.join('<article class="bio-row%s">\n%s\n<p>%s</p>\n</article>\n' % (' rev' if i % 2 else '', fig(im), E(p))
                 for i, (p, im) in enumerate(zip(BIOGRAFIA[1:], BIO_IMMAGINI)))
+# Ultimo capoverso (pubblicazioni, sezione 6 della skill as-biografia) con la copertina del libro piu' vecchio tra quelli pubblicati
+primo_libro = min(LIBRI_PUBBLICATI, key=lambda l: int(l[0]))
+_slug_libro = re.sub(r'[^a-z0-9]+', '-', primo_libro[1].lower().replace("'", '-')).strip('-')
+fig_libro = ('<figure><a class="zoom" href="img/libri/%s.jpg" aria-label="Ingrandisci: %s"><img src="img/libri/%s.jpg" width="%d" height="%d" alt="Copertina de %s" loading="lazy"></a>'
+             '<figcaption>%s<small>%s</small></figcaption></figure>') % (_slug_libro, E(primo_libro[1]), _slug_libro, 321, 522, E(primo_libro[1]), E(primo_libro[1]), E(primo_libro[0]))
+riga_libri = '<article class="bio-row%s">\n%s\n<p>%s</p>\n</article>\n' % (' rev' if len(BIO_IMMAGINI) % 2 else '', fig_libro, E(BIO_EXTRA[0]))
 bio = ('<h2>Biografia</h2>\n<p class="sub">Roma, 1978</p>\n'
        '<div class="bio-top">\n<figure><img src="img/biografia/studio.jpg" width="784" height="774" alt="Adriano Segarelli nel suo studio"></figure>\n<p class="lead">%s</p>\n</div>\n%s'
-       '<div class="bio-end"><a class="btn" href="pittura.html">Continua a conoscermi</a></div>') % (E(BIOGRAFIA[0]), righe)
+       '<div class="bio-end"><a class="btn" href="pittura.html">Continua a conoscermi</a></div>') % (E(BIOGRAFIA[0]), righe + riga_libri)
 write('biografia.html', page('', 'Biografia — ' + NOME, 'Biografia di Adriano Segarelli, nato a Roma nel 1978: pittura, scultura, affresco e libri.', main_(bio), 'biografia'))
 
 # La mia pittura: schede (tab) per tema. Anteprima di 5 righe + "Leggi di più" (pagina col testo intero) + opere piccole (si ingrandiscono)
@@ -369,11 +406,14 @@ def tessere(k):
         src_img(o['file']), E(o['titolo']), src_img(o['file']), (' width="%d" height="%d"' % (o['w'], o['h'])) if o.get('w') else '', E(o['titolo'] + ' — ' + o['scheda']), E(o['titolo']), E(o['scheda'])) for o in TEMI_OPERE.get(k, []))
     return '<div class="mini">%s</div>' % out
 tabs = ''.join('<button role="tab" type="button" id="t-%s" data-k="%s" aria-controls="p-%s" aria-selected="%s">%s</button>' % (k, k, k, 'true' if i == 0 else 'false', E(t)) for i, (k, t) in enumerate(TEMI))
+# File scaricabili (allegati di una release GitHub; GitHub conta i download): _sorgenti/download.json
+DOWNLOAD = json.load(open(os.path.join(ROOT, '_sorgenti', 'download.json')))
 def pannello(i, k, t):
     ps = TEMI_TESTI.get(k, [])
     testo = ('<p class="clamp">%s</p>\n<p><a class="more" href="tema-%s.html">Leggi di più →</a></p>' % (E(' '.join(ps)), k)) if ps else '<p class="ph">Testo in arrivo.</p>'
-    return '<div class="tp%s" role="tabpanel" id="p-%s" aria-labelledby="t-%s">\n<div class="tx"><h3>%s</h3>\n%s\n<a class="btn" href="%s" target="_blank" rel="noopener">Portfolio</a></div>\n%s\n</div>\n' % (
-        ' on' if i == 0 else '', k, k, E(t), testo, PORTFOLIO, tessere(k))
+    scarica = ''.join('\n<a class="btn" href="%s" rel="noopener">%s</a>' % (E(d['url']), E(d['label'])) for d in DOWNLOAD if d['tema'] == k)
+    return '<div class="tp%s" role="tabpanel" id="p-%s" aria-labelledby="t-%s">\n<div class="tx"><h3>%s</h3>\n%s\n<a class="btn" href="%s" target="_blank" rel="noopener">Portfolio</a>%s</div>\n%s\n</div>\n' % (
+        ' on' if i == 0 else '', k, k, E(t), testo, PORTFOLIO, scarica, tessere(k))
 pit = '<h2>La mia pittura</h2>\n<p class="sub">Un percorso attraverso i temi</p>\n<div class="tabs">\n<div role="tablist" aria-label="Temi">%s</div>\n%s</div>' % (tabs, ''.join(pannello(i, k, t) for i, (k, t) in enumerate(TEMI)))
 write('pittura.html', page('', 'La mia pittura — ' + NOME, 'Il percorso pittorico di Adriano Segarelli: ' + ', '.join(t for _, t in TEMI) + '.', main_(pit), 'pittura'))
 # Pagina con il testo intero di ogni tema (solo per i temi che hanno il testo)
