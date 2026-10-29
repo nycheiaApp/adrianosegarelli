@@ -78,7 +78,7 @@ body.lb-open{overflow:hidden}
 .tabs.js .tp:not(.on){display:none}
 .tp h3{font-size:clamp(20px,2.6vw,26px);color:var(--gold);margin-bottom:12px}
 .tx p{margin-bottom:1em}
-.tx .btn{margin-top:10px}
+.tx .btn{margin-top:10px;margin-right:.7rem}
 .tx h3:not(:first-child){margin-top:28px}
 .mini .frame{aspect-ratio:1/1}
 .lungo .nota{font-style:italic;color:var(--mute);font-size:16px}
@@ -164,8 +164,15 @@ textarea{min-height:130px;resize:vertical}
 .social a{width:44px;height:44px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--gold);transition:.3s}
 .social a:hover{background:var(--gold);color:var(--bg)}
 .social svg{width:20px;height:20px;fill:currentColor}
-footer{border-top:1px solid var(--line);text-align:center;padding:36px 5vw;color:var(--mute);font-size:16px}
-footer .social{justify-content:center;margin-bottom:18px}
+footer{border-top:1px solid var(--line);padding:clamp(3rem,6vw,5rem) clamp(1.2rem,4vw,3rem) 1.5rem;font-size:.92rem;color:var(--mute)}
+.fg{max-width:80rem;margin:auto;display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:2.5rem}
+footer .fn{display:flex;align-items:center;gap:10px;font-style:italic;font-size:1.5rem;color:var(--ink);margin-bottom:.6rem}
+footer svg.mark{width:30px;height:30px}
+footer .social{margin-top:1.1rem}
+footer h4{font-weight:400;font-size:.85rem;letter-spacing:.12em;color:var(--gold);margin-bottom:.9rem}
+footer ul{list-style:none;padding:0;display:grid;gap:.45rem}
+footer a{text-decoration:none;color:inherit}footer a:hover{color:var(--gold)}
+.fb{max-width:80rem;margin:3rem auto 0;padding-top:1.2rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem 1rem;font-size:.8rem}
 
 /* Home */
 body.home::before{display:none}
@@ -179,6 +186,7 @@ background:linear-gradient(rgba(0,0,0,var(--ho1,.3)),rgba(0,0,0,var(--ho2,.55)))
 .hm nav a:hover{border-color:#fff;color:#fff}
 
 @media(max-width:760px){
+.fg{grid-template-columns:1fr;gap:2rem}
 body{font-size:16.5px}
 header{position:static}
 .tp{grid-template-columns:1fr;gap:22px}
