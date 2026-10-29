@@ -1,0 +1,35 @@
+SITO DI ADRIANO SEGARELLI — struttura
+
+index.html                 home (sfondo: un'opera diversa a ogni arrivo)
+biografia.html · pittura.html · affresco.html · sculture.html · libri.html
+esperienze.html            elenco per anno
+esperienze/e01.html ...    una pagina per ogni evento
+contatti.html
+
+css/style.css              tutti gli stili; colori e font sono variabili in cima al file
+js/main.js                 filigrana e sfondo home, carosello foto, modulo contatti
+js/data/opere.js           elenco delle opere usate come sfondo (colori) e filigrana (negativo)
+fonts/                     Lora (licenza OFL), in locale: nessun collegamento a Google
+img/sfondi/                opere a colori per la home
+img/filigrane/             negativi per le altre pagine
+img/foto/                  qui andranno le foto definitive
+
+_sorgenti/build.py         generatore delle pagine. I testi, gli eventi e i link stanno in cima
+                           al file, nella sezione DATI. Dopo ogni modifica: python3 build.py
+
+Per vedere il sito basta aprire index.html con il browser.
+Il modulo contatti apre il programma di posta dell'utente (nessun server necessario).
+Prima della pubblicazione: sostituire i testi segnaposto, inserire le foto, aggiungere anni e luoghi agli eventi.
+
+NOTA SULLE IMMAGINI DI "LA MIA PITTURA"
+Tutte le immagini della pagina La mia pittura (27, in 7 schede) NON sono nel sito: vengono caricate
+direttamente dal Portfolio (https://nycheiaapp.github.io/ASPortfolio/img/opere/). Non vanno copiate nella cartella img.
+Il sito funziona solo se il Portfolio resta online e i file mantengono lo stesso nome (nel Portfolio i nomi
+sono gia' cambiati una volta: se li rinominate di nuovo, mandatemi il nuovo elenco e rigenero la pagina).
+L'elenco e' in _sorgenti/pittura-immagini.json.
+
+FONTE DEI CONTENUTI
+I testi e i dati del sito (biografia, temi, libri, sculture, esperienze, elenco opere) provengono dalle skill
+as-biografia, as-pagine, as-tema, as-libri, as-sculture, as-sculture-dettagli, as-rassegna-stampa e as-pittura,
+non piu' dal foglio Excel. I record con Status "N" non sono pubblicati.
+Se una skill cambia, il sito va rigenerato (python3 _sorgenti/build.py dopo aver aggiornato i dati in _sorgenti/).
